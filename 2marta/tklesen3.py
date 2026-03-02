@@ -1,0 +1,11 @@
+from tkinter import *
+root=Tk()
+frame1=Frame(root,width=200,height=100,bg='green',bd=10)
+frame2=Frame(root,width=200,height=100,bg='red',bd=10)
+button1=Button(frame1,text=u'ДА')
+button2=Button(frame2,text=u'НЕТ')
+frame1.pack()
+frame2.pack()
+button1.pack()
+button2.pack()
+root.mainloop()
